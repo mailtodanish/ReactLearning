@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Greed from './components/Greed'
@@ -17,11 +17,26 @@ import './components/appStyle.css'
 import  styles from './components/appStyle.module.css'
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+import PureComp from './components/PureComp';
+import ParentComp from './components/ParentComp';
+import Refs from './components/Refs';
+import Refs_class from './components/Refs_class';
+import FocusInput from './components/FocusInput';
+import FRParentInput from './components/FRParentInput';
 
 function App() {
   return (
     <div className="App">
-      <LifeCycleA></LifeCycleA>
+      <FRParentInput></FRParentInput>
+      {/* <FocusInput></FocusInput> */}
+      {/* <Refs></Refs> */}
+      {/* <ParentComp></ParentComp> */}
+      {/* <PureComp></PureComp> */}
+      {/* <Table></Table> */}
+     {/* <FragmentDemo></FragmentDemo> */}
+      {/* <LifeCycleA></LifeCycleA> */}
       {/* <Form></Form> */}
       {/* <h1 class="error">TestCSS</h1>
       <h1 class={styles.success}>TestCSS_module</h1> */}

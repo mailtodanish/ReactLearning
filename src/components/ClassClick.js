@@ -4,7 +4,7 @@ export class ClassClick extends Component {
     render() {
         return (
             <div>
-                <button></button>
+                <button>class_click</button>
             </div>
         )
     }
